@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    /* COLOR FONTS */
+
+    --color-green: #9DFF3A;
+    --color-gradient: #FBF1D6;
+    --color-white: #E5E5E5;
+    --color-gray-1: #999999;
+    --color-gray-2: #4D4D4D;
+    --color-gray-3: #2E2E2E;
+    --color-black: #000000;
+
+    /* FONT */
+
+    --font-body-alexandria: "Alexandria", sans-serif;
+    --font-body-inter: "Inter", sans-serif;
+
+    /* FONT SIZE */
+
+    --font-size-title-1: 64px;
+    --font-size-title-2: 48px;
+    --font-size-title-3: 40px;
+    --font-size-subtitle: 20px;
+    --font-size-button: 18px;
+    --font-size-text-1: 16px;
+    --font-size-text-2: 14px;
+    --font-size-caption: 12px;
+}
+
+/* .content-main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-main span{
+    display: flex;
+    gap: 8px;
+    color: var(--color-green);
+    border: 1px solid var(--color-gray);
+    padding: 10px 12px;
+    border-radius: 24px;
+}
+
+h1{
+    color: var(--color-white);
+    font-size: var(--font-size-title-1);
+    width: 521px;
+    font-family: var(--font-body-alexandria);
+}
+
+.content-main p{
+    color: var(--color-gray-1);
+    font-family: var(--font-body-inter);
+    font-size: var(--font-size-subtitle);
+    width: 583px;
+}
+
+.container-btn-main{
+    display: flex;
+    gap: 20px;
+} */

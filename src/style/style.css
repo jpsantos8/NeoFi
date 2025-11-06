@@ -279,4 +279,93 @@ h1{
     font-size: var(--font-size-subtitle);
 }
 
+.content-blockchain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.content-blockchain span{
+    color: var(--color-green);
+    border: 1px solid var(--color-gray-3);
+    padding: 12px 20px;
+    border-radius: 24px;
+    font-family: var(--font-body-alexandria);
+    font-size: var(--font-size-text-2);
+}
+
+.content-blockchain h2{
+    font-family: var(--font-body-alexandria);
+    font-size: var(--font-size-title-2);
+    color: var(--color-white);
+    font-weight: 400;
+}
+
+.content-blockchain p{
+    font-family: var(--font-body-inter);
+    color: var(--color-gray-1);
+    width: 572px;
+    text-align: center;
+}
+
+.section-blockchain{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.section-blockchain .container-blockchain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.container-cards-blockchain{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.card-blockchain{
+    display: flex;
+    align-items: center;
+    padding: 30px 20px;
+    gap: 24px;
+    background: var(--color-gray-4);
+    border: 1px solid var(--color-gray-2);
+    border-radius: 20px;
+}
+
+.content-card-blockchain{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.content-card-blockchain h3{
+    font-family: var(--font-body-inter);
+    font-size: var(--font-size-subtitle);
+    color: var(--color-white);
+    font-weight: 400;
+}
+
+.content-card-blockchain p{
+    font-size: var(--font-size-text-1);
+    font-family: var(--font-body-alexandria);
+    color: var(--color-gray-1);
+    width: 530px;
+}
+
+.content-faq span{
+    color: var(--color-green);
+    border: 1px solid var(--color-gray-3);
+    padding: 12px 20px;
+    border-radius: 24px;
+    font-family: var(--font-body-alexandria);
+    font-size: var(--font-size-text-2);
+}
+
+
 

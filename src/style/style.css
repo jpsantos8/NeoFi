@@ -358,6 +358,26 @@ h1{
     width: 530px;
 }
 
+.section-faq{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0;
+    gap: 60px;
+}
+
+.section-faq .container-faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.content-faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
 .content-faq span{
     color: var(--color-green);
     border: 1px solid var(--color-gray-3);
@@ -367,5 +387,89 @@ h1{
     font-size: var(--font-size-text-2);
 }
 
+.content-faq h2{
+    font-family: var(--font-body-alexandria);
+    font-size: var(--font-size-title-2);
+    color: var(--color-white);
+    font-weight: 400;
+}
+
+.content-faq p{
+    font-family: var(--font-body-inter);
+    color: var(--color-gray-1);
+    width: 572px;
+    text-align: center;
+}
+
+.faq-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 16px 20px;
+    width: 792px;
+    border: 1px solid var(--color-gray-3);
+
+}
+
+.faq-item h3 {
+    color: var(--color-white);
+    font-size: var(--font-h4);
+    font-family: var(--font-title);
+}
+
+.section-revolutionary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.content-revolutionary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.content-revolutionary span{
+    color: var(--color-green);
+    border: 1px solid var(--color-gray-3);
+    padding: 12px 20px;
+    border-radius: 24px;
+    font-family: var(--font-body-alexandria);
+    font-size: var(--font-size-text-2);
+}
+
+.content-revolutionary h2{
+    font-family: var(--font-body-alexandria);
+    font-size: var(--font-size-title-2);
+    color: var(--color-white);
+    font-weight: 400;
+    width: 858px;
+    text-align: center;
+}
+
+.content-revolutionary p{
+    font-family: var(--font-body-inter);
+    color: var(--color-gray-1);
+    width: 572px;
+    text-align: center;
+}
+
+.container-btn-revolutionary{
+    display: flex;
+    gap: 20px;
+}
+
+.btn-revolutionary{
+    display: flex;
+    align-items: center;
+    background-color: var(--color-green);
+    padding: 14px 24px;
+    color: black;
+    text-decoration: none;
+    font-family: var(--font-body-alexandria);
+}
 
 
